@@ -9,7 +9,7 @@ object Enigma {
             args.map(arg => {
                 plain += arg
             })
-            var result = enigma(plain)
+            var result = enigma(plain.toLowerCase())
             println(result)
         }
     }
